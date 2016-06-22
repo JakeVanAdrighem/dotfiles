@@ -3,3 +3,5 @@
 	email = jvanadrighem@gmail.com
 [push]
 	default = simple
+[core]
+	excludesfile = /Users/jake/.gitignore
