@@ -1,5 +1,6 @@
 alias up='cd ..'
 alias gs='git status'
+alias gcv='git commit -v'
 alias gg='git grep'
 
 # -G: Colorized output
