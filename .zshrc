@@ -2,6 +2,7 @@ alias up='cd ..'
 alias gs='git status'
 alias gcv='git commit -v'
 alias gg='git grep'
+alias gb='git branch'
 
 # -G: Colorized output
 # -F: '/' after dir pathnames
@@ -20,6 +21,9 @@ alias findn='find * -name'
 export NINJA_STATUS="%e - [%u/%r/%f] "
 
 export PATH=$PATH:/Users/jvanadrighem/bin
+
+unset PROMPT
+export PROMPT="%m:%1d $ "
 
 # obivous
 export CC=clang
